@@ -5,8 +5,8 @@ from email.mime.multipart import MIMEMultipart  # To attach imagaes or pdf or an
 from email.mime.base import MIMEBase  
 from email import encoders  # To encode
 
-email_user = '076bei048.vikrant@pcampus.edu.np' # The Id from which mail will be sent
-email_password = '9c07frv5zl'  #password of ID from which mail will be sent (It is only with u in ur IDE so safe to use totally)
+email_user = 'e-mail@address.com' # The Id from which mail will be sent
+email_password = 'password'  #password of ID from which mail will be sent (It is only with u in ur IDE so safe to use totally)
 while True:
     try:       
         email_send = input(str("Enter sender address"))  #Ask for entering E-mail address to whom mail to be sent
